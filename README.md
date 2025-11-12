@@ -15,3 +15,15 @@ This project investigated the use of transformer-based natural language processi
 Spirometry is a medical technique that provides a comprehensive diagnosis in the evaluation of respiratory disease. Nowadays, clinical domain experts usespirometric sequences to extract the main lung function indexes and provide a direct diagnostic to patients under suspicion of respiratory disorders. However, these parameters are not always representative of the patient real situation, as
 they rely on other demographic and secondary factors. Several research studies have implemented supervised and unsupervised learning techniques, with the aim of creating models that effectively capture hidden insights from spirograms and permit to derive a clear and accurate clinical diagnosis in patients with restrictive and obstructive respiratory diseases. The current project ambitions
 to provide a hybrid approach that combines deep-learning based methods and unsupervised learning techniques to produce an effective clinical outcome with respect to patient status. Continuous spirometric  data gathered by NHANES institution is utilized to perform this study. The proposed hybrid models extractrelevant patterns from volume time series through autoencoders and reservoir computing and apply clustering methods on these compressed representations to distinguish between diseased and healthy patients. Models applied to raw spirometric recordings achieve clinically significant separation between healthy and diseased groups for a subset of 20 subjects.
+
+# Transcription and Translation Exercises
+
+This project demonstrates basic bioinformatics workflows in Python, covering the processes of **transcription** and **translation** of a gene. It includes:
+
+- Reading a DNA sequence from a text file.
+- Computing the complementary strand (3’ → 5’) and generating the mRNA sequence.
+- Performing splicing using exon coordinates to obtain the final mRNA.
+- Extracting the **5′ UTR**, **coding sequence (CDS)**, and **3′ UTR** from the mRNA.
+- Translating the coding sequence into the corresponding protein using **Biopython**.
+
+The code provides a clear, step-by-step implementation suitable for **educational purposes**, illustrating the central dogma of molecular biology and how to process genomic sequences computationally.
